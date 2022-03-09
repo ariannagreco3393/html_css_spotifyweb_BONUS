@@ -969,8 +969,13 @@ Media query 320px
     .volume {
         width: 40px;
     }
-
-    
+ 
   
+}
+
+@media screen and (max-height: 200px)  {
+    .top_bar {
+        display: none;
+    }
 }
 
