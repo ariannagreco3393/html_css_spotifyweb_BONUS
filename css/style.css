@@ -348,6 +348,23 @@ soundbar left
     
 }
 
+
+.soundbar_left:hover img {
+    margin-bottom: 2rem;
+    width: 120px;
+    transition: all 3s; 
+    animation: rotate-parziale 3s;
+}
+
+@keyframes rotate-parziale {
+    90% {
+        transform: rotate(270deg);
+    }
+
+    0% {
+        transform: rotate(0);
+    }
+}
 .soundbar_left {
     display: flex;
     align-items: center;
